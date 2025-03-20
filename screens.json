@@ -1,0 +1,37 @@
+{
+    "main": {
+        "import": "from libs.uix.baseclass.main_screen import MainScreen",
+        "object": "MainScreen()",
+        "kv": ["libs", "uix", "kv", "main_screen.kv"]
+    },
+    "settings": {
+        "import": "from libs.uix.baseclass.settings_screen import SettingsScreen",
+        "object": "SettingsScreen()",
+        "kv": ["libs", "uix", "kv", "settings_screen.kv"]
+    },
+    "onboarding": {
+        "import": "from libs.uix.baseclass.onboarding_screen import OnboardingScreen",
+        "object": "OnboardingScreen()",
+        "kv": ["libs", "uix", "kv", "onboarding_screen.kv"]
+    },
+    "signin": {
+        "import": "from libs.uix.baseclass.signin_screen import SigninScreen",
+        "object": "SigninScreen()",
+        "kv": ["libs", "uix", "kv", "signin_screen.kv"]
+    },
+    "signup": {
+        "import": "from libs.uix.baseclass.signup_screen import SignupScreen",
+        "object": "SignupScreen()",
+        "kv": ["libs", "uix", "kv", "signup_screen.kv"]
+    },
+    "getstarted": {
+        "import": "from libs.uix.baseclass.getstarted_screen import GetstartedScreen",
+        "object": "GetstartedScreen()",
+        "kv": ["libs", "uix", "kv", "getstarted_screen.kv"]
+    },
+    "loading": {
+        "import": "from libs.uix.baseclass.loading_screen import LoadingScreen",
+        "object": "LoadingScreen()",
+        "kv": ["libs", "uix", "kv", "loading_screen.kv"]
+    }
+}

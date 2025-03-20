@@ -1,0 +1,32 @@
+{
+    "home": {
+        "icon": "home",
+        "import": "from libs.uix.baseclass.home_tab import HomeTab",
+        "object": "HomeTab()",
+        "kv": ["libs", "uix", "kv", "home_tab.kv"]
+    },
+    "analytics": {
+        "icon": "bar_chart",
+        "import": "from libs.uix.baseclass.analytics_tab import AnalyticsTab",
+        "object": "AnalyticsTab()",
+        "kv": ["libs", "uix", "kv", "analytics_tab.kv"]
+    },
+    "insights": {
+        "icon": "insights",
+        "import": "from libs.uix.baseclass.insights_tab import InsightsTab",
+        "object": "InsightsTab()",
+        "kv": ["libs", "uix", "kv", "insights_tab.kv"]
+    },
+    "notes": {
+        "icon": "article",
+        "import": "from libs.uix.baseclass.notes_tab import NotesTab",
+        "object": "NotesTab()",
+        "kv": ["libs", "uix", "kv", "notes_tab.kv"]
+    },
+    "files": {
+        "icon": "folder",
+        "import": "from libs.uix.baseclass.files_tab import FilesTab",
+        "object": "FilesTab()",
+        "kv": ["libs", "uix", "kv", "files_tab.kv"]
+    }
+}
